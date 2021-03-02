@@ -37,7 +37,7 @@ function ProdutoItem(){ {/* Cria um componente de cada produto no então DB - at
           {itens.sort((a,b) => b.valor - a.valor).slice(0,visible).map(produto_show =>(
             /* .sort((a,b) => b.valor - a.valor) Sorter, para inverter trocar ordem dos valores*/
               <div className='xsad'>
-                <Link className='cards__item__link' to={'/produtos/' + produto_show.id}> {/* Passa o id para gerar páginas dinamicamente */}
+                <Link className='cards__item__link' to={'/react-ecommerce/produtos/' + produto_show.id}> {/* Passa o id para gerar páginas dinamicamente */}
                   <figure className='cards__item__pic-wrap' data-category={'R$ '+ produto_show.valor}>
                     <img className='cards__item__img' src={produto_show.img}/>
                   </figure>

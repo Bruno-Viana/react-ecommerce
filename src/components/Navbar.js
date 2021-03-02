@@ -33,34 +33,34 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        <img src="..//logo.png" width="70px" height="70px"/>
+                    <Link to="/react-ecommerce/" className="navbar-logo" onClick={closeMobileMenu}>
+                        <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/logo.png?raw=true" width="70px" height="70px"/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                            <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>   
                     </div>
                     <div className="cart-icon">
-                    <Link to="/carrinho" className="" onClick={closeMobileMenu}>
+                    <Link to="/react-ecommerce/carrinho" className="" onClick={closeMobileMenu}>
                         <div className='text-i-e-s'><Cart/></div>
                         <i className="fas fa-shopping-cart"></i> 
                         </Link>                          
                     </div>
                     <ul className={click ? 'nav-menu active': 'nav-menu'}> {/* Adicionar aqui quantos links teram na Nav-bar */}
                         <li className='nav-item'>  
-                        <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/react-ecommerce/" className="nav-links" onClick={closeMobileMenu}>
                             Home                            
                         </Link>
                         </li>
                         <li className='nav-item'>  
-                        <Link to="/produtos" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/react-ecommerce/produtos" className="nav-links" onClick={closeMobileMenu}>
                             Produtos                            
                         </Link>
                         </li> 
-                        <Link to="/carrinho" className="nav-links" onClick={closeMobileMenu}>
+                        <Link to="/react-ecommerce/carrinho" className="nav-links" onClick={closeMobileMenu}>
                            Carrinho (<Cart/>)
                         </Link>                       
                         <li className='nav-item'>  
-                        <Link to="/login" className="nav-links-mobile" onClick={closeMobileMenu}>
+                        <Link to="/react-ecommerce/login" className="nav-links-mobile" onClick={closeMobileMenu}>
                             Minha Conta
                         </Link>
                         </li>

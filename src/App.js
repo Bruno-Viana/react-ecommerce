@@ -22,12 +22,12 @@ function App() {
     <CartProvider>
     <Navbar/>
       <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/produtos' exact component={Produtos} />
-          <Route path='/produtos/:id' component={ProdPage} />
-          <Route path='/carrinho' component={Carrinho} />
-          <Route path='/sobre' component={Sobre} />
-          <Route path='/login' component={Login} />
+          <Route path='/react-ecommerce/' exact component={Home} />
+          <Route path='/react-ecommerce/produtos' exact component={Produtos} />
+          <Route path='/react-ecommerce/produtos/:id' component={ProdPage} />
+          <Route path='/react-ecommerce/carrinho' component={Carrinho} />
+          <Route path='/react-ecommerce/sobre' component={Sobre} />
+          <Route path='/react-ecommerce/login' component={Login} />
           <Route component={Page404} />
       </Switch>
     <ScrollTopArrow/>

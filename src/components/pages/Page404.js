@@ -7,7 +7,7 @@ import './Page404.css'
 function Page404(){
   return (
     <>
-    <Link to=''>
+    <Link to='/react-ecommerce/'>
     <div className="wrapper_404">
       <video autoPlay muted loop src="https://cdn-animation.artstation.com/p/video_sources/000/226/974/x-crop-new-sound.mp4"/> 
       <h1 className="labeltop">404</h1>

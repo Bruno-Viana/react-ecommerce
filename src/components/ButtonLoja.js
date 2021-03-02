@@ -10,7 +10,7 @@ export const ButtonLoja = ({children, type, onClick, buttonStyle, buttonSize}) =
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZE.includes(buttonSize) ? buttonSize : SIZE[0];
     return (
-        <Link to='/produtos' className='btn-mobile'>
+        <Link to='/react-ecommerce/produtos' className='btn-mobile'>
           <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}

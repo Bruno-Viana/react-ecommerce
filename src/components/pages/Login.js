@@ -11,7 +11,7 @@ function LoginPage(){
   return (
     <div className="wrapper_form_page">
       <h1 className="demoHeader">//Desativado na demo</h1>
-      <form action="/login" className="login-form">
+      <form action="/react-ecommerce/login" className="login-form">
       <p className="login-text">
         <span className="fa-stack fa-lg">
           <i className="fa fa-circle fa-stack-2x"></i>
@@ -23,10 +23,10 @@ function LoginPage(){
       <input type="submit" name="Login" value="Login" class="login-submit" />
       </form>
       <h1>OU</h1>
-      <Link to='/sign-up' className='btn-signup'>
+      <Link to='/react-ecommerce/sign-up' className='btn-signup'>
       <button className="criar__conta">Crie uma conta</button>
       </Link>
-      <a href="/recuperar" className="login-forgot-pass">Esqueci a minha senha</a>
+      <a href="/react-ecommerce/recuperar" className="login-forgot-pass">Esqueci a minha senha</a>
   </div>
   );
 };
