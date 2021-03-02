@@ -38,7 +38,7 @@ Entre no diretório da aplicação:
 Para iniciar a aplicação React:
  `npm start`
  
- O React irá iniciar a webapp em [http://localhost:3000](http://localhost:3000)
+ O React irá iniciar a webapp em [http://localhost:3000/react-ecommerce/](http://localhost:3000/react-ecommerce/)
 
 # :trophy: Tudo pronto!
 
