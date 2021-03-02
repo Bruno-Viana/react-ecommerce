@@ -1,0 +1,121 @@
+.specs{
+    overflow: hidden;
+    padding-top:40px;
+}
+
+.specs-card{
+align-items: center,top;
+height: 100%;
+max-width: 1200px;
+margin-left: 100px;
+padding: 15px;
+display:flex;
+text-align: justify;
+text-justify: inter-word;
+}
+
+.left-column {
+padding: 5px;
+width: 300px;
+height: 400px;
+}
+.spec-img {
+min-width: 300px;
+min-height: 400px;
+max-width: 100%;
+max-height: 100%;
+
+object-fit:contain;
+}
+
+.right-column {
+
+width: 80%;
+height: 40%;
+}
+
+.spec-desc {
+margin-left: 10px;
+margin-bottom: 20px;
+}
+.spec-desc span {
+font-size: 12px;
+color: #358ED7;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.spec-desc h1 {
+width: 100%;
+text-align: start;
+font-weight: 300;
+font-size: 52px;
+color: #ffffff;
+letter-spacing: -2px;
+margin-right: 100%;
+}
+.spec-desc p {
+font-size: 30px;
+font-weight: 300;
+color: #ffffff;
+margin-right: 20px;
+letter-spacing: -2px;
+}
+
+.parcelado p {
+font-size: 20px;
+font-weight: 250;
+color: #ffffff;
+margin-right: 20px;
+letter-spacing: -1px;
+}
+
+.spec-specs{
+height:auto;
+margin-left: 10px;
+position: relative;
+border-top:1px solid  rgb(255, 94, 0);
+}
+
+.spec-specs span{
+font-size: 12px;
+color: #ffffff;
+letter-spacing: 1px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+.product-buy{
+background-color: #f37500;
+color: white;
+padding: 15px 40px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+margin-bottom: 50px;
+}
+
+
+@media (max-width: 940px) {
+
+    .specs-card {
+        margin: auto;
+        flex-direction: column;
+    }
+    .spec-specs{
+        width: 90%;
+    }
+    .left-column,
+    .right-column {
+        width: 100%;
+    }
+    .left-column{
+        width: 100%;
+        height: 50%;
+    }
+
+    .btnAdcCart{
+        height: 40px;
+    }
+}

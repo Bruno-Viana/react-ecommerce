@@ -1,0 +1,157 @@
+.wrapper_carrinho{
+    font-family: 'PT Sans', sans-serif;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    padding: 20px;
+    display: flexbox;
+    margin-bottom: 30%;
+}
+.header_itens{
+    width: 25%;
+}
+.wrapper_item_carrinho{
+    margin: auto;
+}
+.left_column{
+    width: 138px;
+    height: 138px;
+    float: left;
+}
+
+.right_column{
+    width: 60vw;
+    height: 40%;
+    margin-left: 210px;
+}
+.img_carrinho{
+    min-width: 138px;
+    min-height: 138px;
+    max-width: 138px;
+    max-height: 138px;
+    object-fit:contain;
+    
+}
+.img_carrinho:hover {
+    transform: scale(1.1);
+}
+
+.nome_prod{
+    text-align: left;
+    color: rgb(255, 94, 0);
+}
+.quant_prod{
+    text-align: left;
+    color: grey;
+    float:right;
+    font-size: 40px;
+}
+.valor_prod{
+    text-align: left;
+    font-size: 30px;
+    color:  grey;
+    margin-bottom: 40px;
+}
+
+
+.removeitemBtn{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    background: transparent;
+    border: none; 
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+.fa-minus-square{
+    color:red;
+    font-size: 25px;
+}
+
+.fa-plus-square{
+    color:green;
+    font-size: 25px;
+}
+.fa-trash-alt{
+    color:rgb(114, 114, 114);
+    font-size: 24.5px;
+}
+.valor_total_pedido{
+    color: white;
+    margin-left: 70%;
+}
+
+.paypalBtns{
+    margin-left: 70%;
+    text-align: center;
+    width: 30%;
+    height: 35px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    background:transparent;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+
+
+
+@media only screen and (max-width: 960px) {
+    .wrapper_carrinho{
+        width: 100%;
+    }
+    
+    .header_itens{
+        width: 100%;
+    }
+
+    .right_column{
+        width: 70%;
+        height: 40%;
+        margin-left: 110px;
+    }
+    .nome_prod{
+        font-size: 20px;
+    }
+    .quant_prod{
+        left:0;
+        font-size: 20px;
+        float: left;
+    }
+    .valor_prod{
+        text-align: left;
+        font-size: 30px;
+        color:  grey;
+        margin-bottom: 40px;
+    }
+    .valor_total_pedido{
+        width: 100%;
+        margin: auto;
+    }
+    .paypalBtns{
+        margin:0 auto;
+        width: 50%;
+        height: 100%;
+        font-size: 15px;
+    }
+
+    .StatusText{
+        position: absolute;
+        margin-left: 0px;
+    }
+    
+    .fa-minus-square{
+        color:red;
+        font-size: 200%;
+    }
+    
+    .fa-plus-square{
+        color:green;
+        font-size: 200%;
+    }
+    .fa-trash-alt{
+        color:rgb(114, 114, 114);
+        font-size: 200%;
+    }
+
+}

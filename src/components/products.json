@@ -1,0 +1,226 @@
+[
+    {
+      "id": 1,
+      "nome": "iPhone 12 Pro",
+      "desc": "Tela de 6,1 polegadas",
+      "valor": 7999.99,
+      "img" : "https://lojaonline.vivo.com.br/medias/sys_master/root/h37/h8b/13587673382942/apple-iphone-12-pro-128gb-dourado-1.png"
+    },
+    {
+      "id": 2,
+      "nome": "iPhone 12 mini",
+      "desc": "Tela de 5,4 polegadas",
+      "valor": 6999.99,
+      "img": "https://lojaonline.vivo.com.br/medias/sys_master/root/ha8/h55/13587139297310/apple-iphone-12-mini-64gb-branco-1.png"
+    },
+    {
+      "id": 3,
+      "nome": "Galaxy S21 Ultra 5G",
+      "desc": "Tela de 6,2 polegadas",
+      "valor": 8549.99,
+      "img": "https://www.att.com/idpassets/global/devices/phones/samsung/samsung-galaxy-s21-ultra-5g/carousel/phantomblack/6927C-3.png"
+    },
+    {
+      "id": 4,
+      "nome": "Samsung Galaxy Note 20",
+      "desc": "Memória 512gb",
+      "valor": 6200.99,
+      "img": "https://br.etoren.com/upload/images/0.61160500_1597991477_samsung-galaxy-note-20-ultra-5g-n9860-512gb-mystic-black-12gb-ram.png"
+    },
+    {
+      "id": 5,
+      "nome": "Google Pixel 4a",
+      "desc": "-",
+      "valor": 3579.99,
+      "img": "https://ibcdn.canaltech.com.br/N7J3PbTPHZTGnYsb5yd--XmeAxU=/fit-in/400x400/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i414098.png"
+    },
+    {
+      "id": 6,
+      "nome": "Samsung Galaxy S20 FE",
+      "desc": "-",
+      "valor": 2899.99,
+      "img": "https://tecnoblog.net/wp-content/uploads/2021/01/galaxy-s20-fe-produtos-2.png"
+    },
+    {
+      "id": 7,
+      "nome": "Iphone 11",
+      "desc": "-",
+      "valor": 5114.99,
+      "img": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG38.png"
+    },
+    {
+      "id": 8,
+      "nome": "Moto G Power",
+      "desc": "-",
+      "valor": 1529.99,
+      "img": "https://ibcdn.canaltech.com.br/F-9gnYJQMvlUx-iHRDb-wpS7Z6s=/fit-in/400x400/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i417342.png"
+    },
+    {
+      "id": 9,
+      "nome": "OnePlus 8 Pro",
+      "desc": "-",
+      "valor": 5290.99,
+      "img": "https://ibcdn.canaltech.com.br/EmLo0B2Cd6tamgknZL_oJlWiV7M=/fit-in/400x400/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i413878.png"
+    },
+    {
+      "id": 10,
+      "nome": "Xiaomi Redmi Note 9s",
+      "desc": "-",
+      "valor": 1699.99,
+      "img": "https://www.imobilecelulares.com.br/wp-content/uploads/shopping-5-2.png"
+    },
+    {
+      "id": 11,
+      "nome": "Moto One 5G",
+      "desc": "-",
+      "valor": 1989.99,
+      "img": "https://motorolaus.vtexassets.com/arquivos/ids/159197/moto-One-5G-pdp-kv-render-1-cbqispuu.png?v=637344723136770000"
+    },
+    {
+      "id": 12,
+      "nome": "Xiaomi Poco X3",
+      "desc": "-",
+      "valor": 1599.99,
+      "img" : "https://www.volevarxiaomi.com.br/wp-content/uploads/2020/10/J20-Grey-800.png"
+    },
+    {
+      "id": 13,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 799,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 14,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 15,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 16,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 17,
+      "nome": "IPlaceholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 18,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 19,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 20,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 21,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 22,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img" : "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 23,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 999,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 24,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 25,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 26,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 27,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 28,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 29,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 30,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 31,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 1200,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    },
+    {
+      "id": 32,
+      "nome": "Placeholder",
+      "desc": "-",
+      "valor": 700,
+      "img": "https://img2.pngio.com/filenexus-5-front-viewpng-wikimedia-commons-nexus-android-phone-png-1690_2857.png"
+    }
+  ]
