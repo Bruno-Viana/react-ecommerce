@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+<img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/> <img src="https://img.shields.io/static/v1?label=nodejs&message=framework&color=green&style=for-the-badge&logo=javascript"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# :pushpin: Ecommerce feito com front em React e backend em Nodejs
 
-In the project directory, you can run:
+@Sob licença Apache 2.0.
 
-### `npm start`
+# Conceitos do React Utilizados:
+<p align="justify">Rendering condicional com forte foco nos Components, Routers, Providers, Hooks (State, Context, Ref e Effect) - Não foi utilizado Redux mas pode ser uma opção viável mas necessitará refatoração do código fonte.</p> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#  :star: Features:
+* Responsivo - Todos os componentes - Navbar inclui um menu hambúrguer.
+* Componentes baseadas em hierarquia.
+* Paginação e criação de páginas para produtos dinâmicas.
+* Carrinho 100% funcional com Storage e utilidades. <br/>
+* :warning: OBS: Autenticação com FireBase NÃO está presente neste repositório!
+* :warning: OBS²: Esta versão tem os produtos em um Json local para facilitar a criação de uma página demo, originalmente utilizado MongoDB.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+# :dollar: Gateway de Pagamento
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pra esse projeto eu usei o PayPal. Diferentemente de outros gateways ele NÂO possui um SDK, logo será necessário mudar a sua import pelo JS encontrado no HTML:
 
-### `npm run build`
+"https://www.paypal.com/sdk/js?currency=BRL&client-id=SEUID-AQUI&locale=pt_BR&buyer-country=BR"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Casos de internacionalização ou específicos em relação ao layout e formas de pagamento por favor ler a documentação em: https://www.paypal.com/br/webapps/mpp/accept-payments-online
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# :memo: Utilizando em sua máquina:
+Clone o repositório:
+`git clone https://github.com/Bruno-Viana/react-ecommerce.git`
 
-### `npm run eject`
+Instale o react-router-dom com yarn ou npm - em caso de dúvidas leia: https://reactrouter.com/web/guides/quick-start
+Entre no diretório da aplicação:
+`cd my-app`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para iniciar a aplicação React:
+ `npm start`
+ 
+ O React irá iniciar a webapp em [http://localhost:3000](http://localhost:3000)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# :trophy: Tudo pronto!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Desktop:
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Bruno-Viana/react-ecommerce/master/public/samples/herosection.png" width="400px"</img>
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/products_footer.png?raw=true" width="400px"</img>
+</div>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Mobile:
+<div align="center">
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_hero.png?raw=true" width="267px" height="450px"></img>
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_products.png?raw=true" width="267px" height="450px"></img>
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_menu.png?raw=true" width="267px" height="450px"></img>
+</div>
