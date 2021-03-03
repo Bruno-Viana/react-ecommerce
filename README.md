@@ -1,6 +1,26 @@
 <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/> <img src="https://img.shields.io/static/v1?label=nodejs&message=framework&color=green&style=for-the-badge&logo=javascript"/>
 
 
+## :dart: Live Demo: https://bruno-viana.github.io/react-ecommerce/
+
+
+
+### Desktop:
+<div align="center">
+    <img src="https://raw.githubusercontent.com/Bruno-Viana/react-ecommerce/master/public/samples/herosection.png" width="400px"</img>
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/products_footer.png?raw=true" width="400px"</img>
+</div>
+
+
+### Mobile:
+<div align="center">
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_hero.png?raw=true" width="267px" height="450px"></img>
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_products.png?raw=true" width="267px" height="450px"></img>
+    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_menu.png?raw=true" width="267px" height="450px"></img>
+</div>
+
+
+
 # :pushpin: Ecommerce feito com front em React e backend em Nodejs
 
 @Sob licença Apache 2.0.
@@ -41,19 +61,3 @@ Para iniciar a aplicação React:
  O React irá iniciar a webapp em [http://localhost:3000/react-ecommerce/](http://localhost:3000/react-ecommerce/)
 
 # :trophy: Tudo pronto!
-
-### Desktop:
-<div align="center">
-    <img src="https://raw.githubusercontent.com/Bruno-Viana/react-ecommerce/master/public/samples/herosection.png" width="400px"</img>
-    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/products_footer.png?raw=true" width="400px"</img>
-</div>
-
-
-### Mobile:
-<div align="center">
-    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_hero.png?raw=true" width="267px" height="450px"></img>
-    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_products.png?raw=true" width="267px" height="450px"></img>
-    <img src="https://github.com/Bruno-Viana/react-ecommerce/blob/master/public/samples/mobile_menu.png?raw=true" width="267px" height="450px"></img>
-</div>
-
-## :dart: Live Demo: https://bruno-viana.github.io/react-ecommerce/
